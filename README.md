@@ -36,7 +36,7 @@ To start the server do
 ```
 $ npm run start
 ```
-![Home page](https://github.com/Akagera-Rhein/Aupair/blob/Developer/src/assets/ReadMeScreenShoot/Screenshot_task.jpg)
+![Home page](https://github.com/Angelus123/TodoApp/blob/Developer/src/Asset/Screenshot_task.png)
 
 ###Contact me for More  +250785182823 or Email: izerefaifelix@gmail.com
 ### Author
