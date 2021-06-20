@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-
+import './AddTodo.css'
 export class AddTodo extends Component {
     state = {
       title:''  
@@ -12,11 +12,10 @@ export class AddTodo extends Component {
     onChange = (e) => this.setState({[e.target.name]:e.target.value});
     render() {
         return (
-           <form onSubmit={this.onSubmit} style={{display: 'flex'}}>
+           <form onSubmit={this.onSubmit} className="frm-add"style={{display: 'flex'}}>
                 <input
                  type="text" 
                  name="title" 
-                 style={{flex:10, padding:'3px'}}
                  placeholder="Add Todo ..."
                  value={this.state.title}
                  onChange={this.onChange}
@@ -26,7 +25,6 @@ export class AddTodo extends Component {
                   value="Submit"
                   className="btn"
                   style={{flex:1}}
-                  
                  onSubmit={this.onSubmit}
                   />
            </form>

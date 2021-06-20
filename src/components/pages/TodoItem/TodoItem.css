@@ -1,0 +1,59 @@
+.btn-style-delete{
+        background-color:#ff0000;
+        color: #fff;
+        margin-top: -20px;
+        border: none;
+        padding: 3px 9px;
+        border-radius: 50%;
+        cursor:pointer; 
+        float: right
+
+}
+.checkbox-item{
+    margin-left: 20px;
+    float:left;
+    cursor:pointer; 
+    
+    }
+.todo-item{
+        background-color: #f4f4f4;
+        margin:auto;
+        font-size:18px;
+        color: black;
+        padding: 20px;
+        width:50%;
+        text-align:center;
+        border-bottom: 1px #ccc dotted;
+        box-shadow: 40px 40px 40px rgb(17, 16, 16)
+    }
+@media (max-width:700px){
+    .btn-style-delete{
+        background-color:#ff0000;
+        color: #fff;
+        margin-top: -20px;
+        border: none;
+        padding: 3px 9px;
+        border-radius: 600px;
+        cursor:pointer; 
+        float: right
+
+}
+.checkbox-item{
+    margin-left: 20px;
+    float:left;
+    cursor:pointer; 
+    
+    }
+.todo-item{
+        background-color: #f4f4f4;
+        margin:auto;
+        color: black;
+        font-size:14px;
+        padding: 20px;
+        width:90%;
+        text-align:center;
+        border-bottom: 1px #ccc dotted;
+        box-shadow: 40px 40px 40px rgb(2, 2, 2)
+    }
+
+}

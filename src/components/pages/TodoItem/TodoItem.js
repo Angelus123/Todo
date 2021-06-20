@@ -1,11 +1,10 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
+import './TodoItem.css'
 export class TodoItem extends Component {
     getStyle = () =>{
     return { 
-       backgroundColor: '#f4f4f4',
-        padding: '10px',
-        borderBottom: '1px #ccc dotted',
+     
         textDecoration: this.props.todo.completed ?
         'line-through' : 'none'
     }
@@ -13,13 +12,12 @@ export class TodoItem extends Component {
     render() {
         const {id,title} = this.props.todo;
         return (
-            <div style={this.getStyle()}>
+            <div style={this.getStyle()} className="todo-item">
             <p>
-            {/* <input type = "checkbox" onChange={this.markComplete/*.bind(this)/> */}
             <input type = "checkbox" onChange={this.props.markComplete.bind
-            (this,id,title) }/> {' '}
+            (this,id,title) } className="checkbox-item"/> {' '}
             {title}</p>   
-            <button onClick={this.props.delTodo.bind(this,id)} style = {btnStyle}>x</button>
+            <button onClick={this.props.delTodo.bind(this,id)} className = 'btn-style-delete'>x</button>
             
             </div>
         )
@@ -32,14 +30,6 @@ TodoItem.protoType={
 }
 
 
-const btnStyle = {
-       backgroundColor:'#ff0000',
-       color: '#fff',
-       border: 'none',
-       padding: '5px 9px',
-       borderRadius: '50%',
-       cursor: 'pointer',
-       float: 'right'
-}
+
 export default TodoItem
 
