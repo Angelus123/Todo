@@ -1,6 +1,6 @@
 # Task ToDo APP
 This App help people to make list of task  to be done. It give you useful environment of task to be done mark it as complete or delete it when no longer needed
-
+![Home page](https://github.com/Angelus123/TodoApp/blob/Developer/src/Asset/Screenshot_task.png)
 ## Authentication
 Firebase
 
@@ -36,7 +36,7 @@ To start the server do
 ```
 $ npm run start
 ```
-![Home page](https://github.com/Angelus123/TodoApp/blob/Developer/src/Asset/Screenshot_task.png)
+
 
 ###Contact me for More  +250785182823 or Email: izerefaifelix@gmail.com
 ### Author
