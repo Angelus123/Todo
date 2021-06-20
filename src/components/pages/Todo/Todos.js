@@ -1,11 +1,7 @@
 import React,{Component} from 'react';
-import TodoItem from './TodoItem';
+import TodoItem from '../TodoItem/TodoItem';
 import PropTypes from 'prop-types'
 class Todos extends Component{
-    // markComplete = () => {
-    //     console.log("hello");
-    // }
-    
     render(){
       
     return this.props.todos.map((todo)=>(
