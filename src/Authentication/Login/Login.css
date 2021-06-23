@@ -2,11 +2,12 @@
    left: 0;
     width:450px;
     margin:30px auto;
-    color: #fff;
+    color: rgb(0, 0, 0);
     text-align: center;
     padding: 5px 9px;
-    border-radius: 10%;
-    cursor: pointer;
+    border-radius: 5px;
+    background-color: white;
+   
     z-index: 1;
     
 }
@@ -21,8 +22,11 @@
     border-bottom: 1px #079 solid;
     border-top: none;
     border-left: none;
+    font-size: 18px;
     border-right: none;
     margin: 3px;
+    padding:0 20px;
+    border-radius: 5px;
 
 
   
